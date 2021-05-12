@@ -67,8 +67,6 @@ def funcion3():
 
     if (b==c or b==d or c==d) or (b==c and c==d):
         if b==c:
-            repetido=b
-            restante=d
             if b<d:
                 may=d
                 medio=meno=b
@@ -76,8 +74,6 @@ def funcion3():
                 may=medio=b
                 meno=d
         elif b==d:
-            repetido=b
-            restante=c
             if b<c:
                 may=c
                 medio=meno=b
@@ -85,8 +81,6 @@ def funcion3():
                 may=medio=b
                 meno=c
         elif c==d:
-            repetido=c
-            restante=b
             if c<b:
                 may=b
                 medio=meno=c
@@ -94,7 +88,7 @@ def funcion3():
                 may=medio=c
                 meno=b
         elif b==c and c==d:
-            may=meno=medio=repetido
+            may=meno=medio=b
     else:
         if (may==b and meno==c) or (may==c and meno==b):
             medio=d
