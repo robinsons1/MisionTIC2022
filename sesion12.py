@@ -77,8 +77,6 @@ def orden(a):
         for _ in a:
             N_mayor,pos=mayor(a)
             del a[pos]
-            a.append(N_mayor)
-            del a[-1]
             nuevo.insert(0,N_mayor)
     return nuevo
 
