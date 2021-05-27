@@ -93,7 +93,7 @@ def actividad4():
         a=1
         for i in range(numero):
             a=a*(numero-i)
-            #print(f"{a}+{numero}*({numero}-{i})")
+            #print(f"{a}*({numero}-{i})")
             i+=1
         if numero!=-1:
             print(f"{numero}! = {a}")

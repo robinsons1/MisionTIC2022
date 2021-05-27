@@ -42,7 +42,7 @@ def caja():
         imprimaProducto(nombre,precio)
         i=str(input("¿Desea ingresar otro producto?: S/N "))
     print(f"\nTotal: {total}")
-#caja()
+caja()
 
 #Actividad 2
 #
@@ -82,4 +82,4 @@ def numAleatorio():
             i=1
     print(N,"\n")
     numeros()
-numAleatorio()
+#numAleatorio()
