@@ -9,7 +9,6 @@ def lecutra_promedio():
     for i in datos:
         suma+=i
     promedio=suma/longitud
-    promedio=round(promedio,2)
 
     return promedio
 
@@ -84,11 +83,11 @@ if veces<=0:
 
 else:
     for i in Vmo:
-        print(i, end=' ')
+        print("{0:.2f}".format(i),end=' ')
     print()
 
     for i in Vca:
-        print(i, end=' ')
+        print("{0:.2f}".format(i),end=' ')
     print()
 
     print("sumamente apto",sumamente_apto)
