@@ -1,6 +1,7 @@
+a=5 if 1==21 else 0
+print(a)
 
-
-datos = list(map(float, input().split(' ')))
+"""datos = list(map(float, input().split(' ')))
 longitud=len(datos)
 suma=0
 
@@ -10,7 +11,7 @@ promedio=suma/longitud
 promedio=round(promedio,2)
 
 for i in datos:
-    print(i, end=' ')
+    print(i, end=' ')"""
 
 ################INGRESA DATOS CON ESPACIOS
 '''
@@ -41,6 +42,6 @@ for i in range(len(a)):
             
             a[i]=x
             a[j]=y
-            print(f"{a} : x: {x}, y: {y}, {a[j]} > {a[i]}")
+            #print(f"{a} : x: {x}, y: {y}, {a[j]} > {a[i]}")
             
 print(a)"""

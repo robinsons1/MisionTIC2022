@@ -58,7 +58,7 @@ def actividad1():
     print()
     print(f"Numero mayor es {may} y esta en la posicion {pos_M}")
     print(f"Numero menor es {men} y esta en la posicion {pos_m}")          
-#actividad1()
+actividad1()
 
 #Actividad 2
 #
@@ -92,4 +92,4 @@ def actividad2():
     print(f"Matriz * {escala}: ")
     escalar(vector,escala)
 
-actividad2()
+#actividad2()
