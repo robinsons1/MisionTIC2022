@@ -1,5 +1,19 @@
-a=5 if 1==21 else 0
-print(a)
+vector=[0,1,1,2,3,4,5]
+print(vector.index(1))
+
+
+"""def matriz_input():
+    matriz=[]
+    for _ in range(3):
+        datos = list(map(float, input().split(' ')))
+        matriz.append(datos)
+    
+    print(matriz)
+    
+matriz_input()"""
+
+"""a=5 if 1==21 else 0
+print(a)"""
 
 """datos = list(map(float, input().split(' ')))
 longitud=len(datos)
