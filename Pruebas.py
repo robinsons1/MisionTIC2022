@@ -1,6 +1,13 @@
-vector=[0,1,1,2,3,4,5]
-print(vector.index(1))
+def n_romanos():
+    romanos={"a":11400,"b":12600,"c":41100,"d":14700,"e":38000}
+    n=str(input("Ingrese el numero: "))
+    print(romanos[n])
+    print(romanos[n]*5)
+n_romanos()
 
+"""vector=[0,1,1,2,3,4,5]
+print(vector.index(1))
+"""
 
 """def matriz_input():
     matriz=[]

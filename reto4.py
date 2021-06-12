@@ -89,26 +89,29 @@ for i in range(len(matriz_ca)):
             no_apto+=1
             na+=1
 
-    print(sum_a,mod_a,mar_a,na)
+    #print(sum_a,mod_a,mar_a,na)
 
     vector.append(sum_a)
     vector.append(mod_a)
     vector.append(mar_a)
     vector.append(na)
 
-    print(* vector)
+    #print(* vector)
 
-    may=men=na
+    may=na
     if may<=mar_a: may=mar_a
     if may<=mod_a: may=mod_a
     if may<=sum_a: may=sum_a
 
-    if men>=mar_a: men=mar_a
-    if men>=mod_a: men=mod_a
-    if men>=sum_a: men=sum_a
+    men=10
 
-    print(f"El mayor {may} esta en la posicion {vector.index(may)}")
-    print(f"El menor {men} esta en la posicion {vector.index(men)}")
+    if men>=na and na!=0: men=na
+    if men>=mar_a and mar_a!=0: men=mar_a
+    if men>=mod_a and mod_a!=0: men=mod_a
+    if men>=sum_a and sum_a!=0: men=sum_a
+
+    #print(f"El mayor {may} esta en la posicion {vector.index(may)}")
+    #print(f"El menor {men} esta en la posicion {vector.index(men)}")
 
     if vector.index(may)==0: maximos.append("sumamente apto")
     if vector.index(may)==1: maximos.append("moderadamente apto")
