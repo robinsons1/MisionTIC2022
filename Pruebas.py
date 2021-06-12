@@ -1,9 +1,54 @@
-def n_romanos():
+sumamente_apto=2
+moderadamente_apto=1
+marginalmente_apto=2
+no_apto=0
+
+diccionarios_coches = [
+        {'categoria': 'marginalmente apto', 'repeticion': marginalmente_apto},
+        {'categoria': 'moderadamente apto', 'repeticion': moderadamente_apto},
+        {'categoria': 'no apto', 'repeticion': no_apto},
+        {'categoria': 'sumamente apto', 'repeticion': sumamente_apto}
+]
+ordenados = sorted(diccionarios_coches, reverse=True,key=lambda coche : coche['repeticion'])
+
+a=ordenados[0]
+b=ordenados[1]
+c=ordenados[2]
+d=ordenados[3]
+
+print(a["categoria"],a["repeticion"])
+print(b["categoria"],b["repeticion"])
+print(c["categoria"],c["repeticion"])
+print(d["categoria"],d["repeticion"])
+
+
+""" print(orden1)
+lista={marginalmente_apto:"marginalmente apto",moderadamente_apto:"moderadamente apto",no_apto:"no apto",sumamente_apto:"sumamente apto"}
+print(lista)
+cs=sorted(orden1)
+print(cs)
+
+print(f"{lista[cs[3]]} {cs[3]}")
+print(f"{lista[cs[2]]} {cs[2]}")
+print(f"{lista[cs[1]]} {cs[1]}")
+print(f"{lista[cs[0]]} {cs[0]}") """
+
+
+"""matriz=[["cali",2,3],["cali",5,6],["Bogota",8,9],["Bogota",10,12]]
+print(* matriz)
+
+for i in range(len(matriz)):
+    if matriz[i][0]=="cali":
+        print(matriz[i][0])
+
+print(type(matriz[0][1]) is int)"""
+
+"""def n_romanos():
     romanos={"a":11400,"b":12600,"c":41100,"d":14700,"e":38000}
     n=str(input("Ingrese el numero: "))
     print(romanos[n])
     print(romanos[n]*5)
-n_romanos()
+n_romanos()"""
 
 """vector=[0,1,1,2,3,4,5]
 print(vector.index(1))
